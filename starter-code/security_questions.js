@@ -11,6 +11,7 @@ function askQuestion(){
     if(userAnswer !== securityQuestions[i].expectedAnswer){
       window.alert("that is not the correct answer");
       break; //is this a correct use for the key word break?
+             //what to do if I want to ask the same question again?
     }
   }
 }
