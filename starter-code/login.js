@@ -1,5 +1,5 @@
 console.log("login.js loaded");
-var userLogin = {userName: "x10", password: 1010};
+var userLogin = {userName: "x10", password: '1010'};
 
 function askPassword(){
   return window.prompt("Enter password for user " + userLogin.userName);
